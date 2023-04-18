@@ -367,11 +367,12 @@ main {
     margin-bottom: 18px;
     margin-right: 18px;
     box-sizing: border-box;
+    border: 1px solid #FFFFFF;
 }
 
 .buttons__item:hover {
     border: 2px solid #303030;
-    padding: 6px 18px;
+    /* padding: 6px 18px; */
 }
 
 .buttons__item:active {
@@ -626,25 +627,27 @@ main {
         padding-top: 83px;
         padding-bottom: 82px;
     }
-    .buttons__item:nth-child(1){
-        order: 1;
-    }
     .inputs__item:nth-child(2){
         width: 142px;
-        order: 2;
+    }
+    .buttons__item:nth-child(1){
+        /* order: 1; */
+    }
+    .buttons__item:nth-child(2){
+        /* order: 2; */
     }
     .inputs__item:nth-child(3){
         width: 144px;
         margin-left: 18.59px;
-        order: 3;
+        /* order: 3; */
     }
-    .buttons__item:nth-child(4){order: 4;}
+    /* .buttons__item:nth-child(4){order: 4;}
     .buttons__item:nth-child(5){order: 5;}
     .buttons__item:nth-child(6){order: 6;}
     .buttons__item:nth-child(7){order: 7;}
     .buttons__item:nth-child(8){order: 8;}
     .buttons__item:nth-child(9){order: 9;}
-    .buttons__item:nth-child(10){order: 10;}
+    .buttons__item:nth-child(10){order: 10;} */
     .buttons{
         height: 265px;
     }
