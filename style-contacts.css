@@ -197,8 +197,7 @@ header {}
 .open {
     display: block !important;
 }
-
-.header__meny {
+.header__shadow {
     display: none;
     position: fixed;
     top: 0;
@@ -208,6 +207,13 @@ header {}
     z-index: 2;
     background: rgba(48, 48, 48, 0.5);
 }
+.header__meny {
+    display: none;
+    position: fixed;
+    top: 75px;
+    left: auto;
+    z-index: 2;
+}
 
 .header__list {
     width: 330px;
@@ -215,7 +221,6 @@ header {}
     box-sizing: border-box;
     background: #FFFFFF;
     border: 2px solid #000000;
-    margin: 75px auto;
     display: flex;
     flex-direction: column;
     padding: 8px 11px;
@@ -553,6 +558,9 @@ main {
     main {
         margin-top: 74px;
     }
+    .header__meny{
+        display: none;
+    }
     .text h2{
         font-size: 36px;
         line-height: 44px;
@@ -630,24 +638,47 @@ main {
     .inputs__item:nth-child(2){
         width: 142px;
     }
+    .buttons{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .buttons__item:nth-child(1){
-        /* order: 1; */
+        order: 1;
     }
     .buttons__item:nth-child(2){
-        /* order: 2; */
+        order: 2;
+    }
+    .buttons__item:nth-child(3){
+        order: 3;
+    }
+    .buttons__item:nth-child(4){
+        order: 4;
+    }
+    .buttons__item:nth-child(5){
+        order: 9;
+    }
+    .buttons__item:nth-child(6){
+        order: 9;
+    }
+    .buttons__item:nth-child(7){
+        order: 6;
+    }
+    .buttons__item:nth-child(8){
+        margin-right: 0;
+        order: 7;
+    }
+    .buttons__item:nth-child(9){
+        order: 5;
+    }
+    .buttons__item:nth-child(10){
+        order: 10;
     }
     .inputs__item:nth-child(3){
         width: 144px;
         margin-left: 18.59px;
-        /* order: 3; */
+
     }
-    /* .buttons__item:nth-child(4){order: 4;}
-    .buttons__item:nth-child(5){order: 5;}
-    .buttons__item:nth-child(6){order: 6;}
-    .buttons__item:nth-child(7){order: 7;}
-    .buttons__item:nth-child(8){order: 8;}
-    .buttons__item:nth-child(9){order: 9;}
-    .buttons__item:nth-child(10){order: 10;} */
+
     .buttons{
         height: 265px;
     }
