@@ -696,19 +696,18 @@ main {
         line-height: 20px;
         margin-top: 12px;
     }
-    .footer__container {
+
+    .footer__container{
+        padding-left: 15px;
         padding-top: 61px;
         padding-bottom: 0;
     }
-    .prefooter__input,
-    .buttons {
-        /* width: 330px; */
-    }
     .social-network {
         margin-top: 31px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: 200px;
     }
-
     .social-network a:nth-child(2),
     .social-network a:nth-child(4) {
         margin-left: 13px;
